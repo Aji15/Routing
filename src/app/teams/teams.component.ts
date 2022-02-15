@@ -8,16 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamsComponent implements OnInit {
 
-  public team_name = [
-    "Mumbai Indians",
-    "Chennai Super Kings",
-    "Royals Challenger Bangalore",
-    "Kolkata Knight Riders ",
-    "Sunrisers Hyderbad",
-    "Punjab Kings",
-    "Rajasthan Royals",
-    "Lucknow Super Gaints",
-    "Gujarat Titans"
+  public teams = [
+    {"name":"Mumbai Indians"},
+    {"name":"Chennai Super Kings"},
+    {"name":"Royal Challengers Bangalore"},
+    {"name":"Kolkata Knight Riders "},
+    {"name":"Sunrisers Hyderbad"},
+    {"name":"Punjab Kings"},
+    {"name":"Rajasthan Royals"},
+    {"name":"Lucknow Super Gaints"},
+    {"name":"Delhi Capitals"},
+    {"name":"Gujarat Titans"}
+  
   ]
   
   constructor() { }
